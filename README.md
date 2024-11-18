@@ -8,7 +8,7 @@
 
 # kelas : TI.24.A3
 
-# Input DAN Output 
+
 
 # Dari  Pratikum 5
 
