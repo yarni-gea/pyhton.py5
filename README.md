@@ -46,5 +46,50 @@ UAS: 35% (0.35)
 
 Mengembalikan hasil perhitungan nilai akhir
 
+# fungsi 
+
+# tampilkan_daftar(daftar_mahasiswa):
+
+python def tampilkan_daftar(daftar_mahasiswa): print("=" * 70) # Membuat garis pembatas print("| No | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("=" * 70) # Membuat garis pembatas
+
+
+Menerima parameter berupa list yang berisi data mahasiswa
+
+Membuat tampilan tabel dengan header
+
+Menggunakan perulangan untuk menampilkan setiap data mahasiswa
+
+Format output menggunakan string formatting untuk merapikan tampilan
+
+enumerate(daftar_mahasiswa, 1) digunakan untuk membuat penomoran mulai dari 1
+
+# fungsi main():
+
+python def main(): daftar_mahasiswa = [] # Inisialisasi list kosong
+
+Fungsi utama program
+
+Membuat list kosong untuk menyimpan data mahasiswa
+
+# input data dan validasi
+
+python while True: print("\nMasukkan data mahasiswa") nama = input("Nama : ") nim = input("NIM : ")
+
+         while true :
+
+              try: 
+
+                  tugas = float(input("nilai tugas : ")
+
+                  if 0 <= tugas <= 100: 
+
+                        break 
+
+                        print(" nilai harus antara 0-100!")
+
+                        expect vallueeror:
+
+                               print("masukkannilai yang valid!")
+
 
 
