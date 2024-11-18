@@ -101,13 +101,61 @@ Proses yang sama dilakukan untuk nilai UTS dan UAS
 
 # simpan data :
 
-ular piton
+python
 
-# hitung nilai akhir
+# hitung nilai akhir:
 
 nilai_akhir = hitung_nilai_akhir(tugas,uts,uas)
 
-# tambahkan kedaftar
+# tambahkan kedaftar:
+
+mahasiswa = { 'nama': nama, 'nim': nim, 'tugas': tugas, 'uts': uts, 'uas': uas, 'nilai_akhir': nilai_akhir } daftar_mahasiswa.append(mahasiswa)
+
+Memanggil fungsi hitung_nilai_akhir
+
+Membuat dictionary untuk menyimpan data satu mahasiswa
+
+Menambahkan dictionary ke dalam list daftar_mahasiswa
+
+# konfirmasi tambah data :
+
+python tambah = input("\nTambah data (y/t)? ") if tambah.lower() != 'y': break
+
+Meminta konfirmasi untuk menambah data lagi
+
+Jika input bukan 'y', keluar dari loop
+
+# menampilkan hasil:
+
+python print("\nDaftar Nilai Mahasiswa:") tampilkan_daftar(daftar_mahasiswa)
+
+Memanggil fungsi tampilkan_daftar untuk menampilkan semua data
+
+# program titik masuk:
+
+python if name == "main": main()
+
+Memastikan fungsi main() hanya dijalankan jika file dijalankan langsung
+
+Tidak akan dijalankan jika file di-import sebagai modul
+
+Fitur-fitur Program:
+
+Dapat menambahkan data mahasiswa secara dinamis
+
+Validasi input untuk nilai (harus numerik dan 0-100)
+
+Perhitungan nilai akhir otomatis dengan bobot yang ditentukan
+
+Tampilan output dalam bentuk tabel yang rapi
+
+Penanganan error untuk input yang tidak valid
+
+Konfirmasi untuk menambah data baru
+
+Program ini dibuat untuk memudahkan pengelolaan data nilai mahasiswa dengan interface yang user-friendly dan penanganan error yang baik.
+
+
 
 
 
