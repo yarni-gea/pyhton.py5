@@ -34,11 +34,16 @@ pyhton def hitung_nilai_akhir(tugas,uts,uas):
 
 return (tugas*0.30)+(uts*0.35)+(uas*0.35)
 
-    Fungsi ini menerima 3 parameter: nilai tugas, UTS, dan UAS
+ Fungsi ini menerima 3 parameter: nilai tugas, UTS, dan UAS
+ 
 Menghitung nilai akhir dengan bobot:
+
 Tugas: 30% (0.30)
+
 UTS: 35% (0.35)
+
 UAS: 35% (0.35)
+
 Mengembalikan hasil perhitungan nilai akhir
 
 
