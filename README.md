@@ -91,5 +91,25 @@ python while True: print("\nMasukkan data mahasiswa") nama = input("Nama : ") ni
 
                                print("masukkannilai yang valid!")
 
+Menggunakan nested while loop untuk input dan validasi
+
+Try-except untuk menangani input nilai yang tidak valid
+
+Validasi rentang nilai (0-100)
+
+Proses yang sama dilakukan untuk nilai UTS dan UAS
+
+# simpan data :
+
+ular piton
+
+# hitung nilai akhir
+
+nilai_akhir = hitung_nilai_akhir(tugas,uts,uas)
+
+# tambahkan kedaftar
+
+
+
 
 
